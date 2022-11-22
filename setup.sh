@@ -5,8 +5,8 @@
     # virtualenv: pip install virtualenv
     
 mkdir -p producer && cd producer > /dev/null
-mv src ./producer
-mv data ./producer
+mv ../src .
+mv ../data .
 python3 -m venv prod_env
 source prod_env/bin/activate
 pip install faker
